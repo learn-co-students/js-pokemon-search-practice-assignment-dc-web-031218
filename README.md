@@ -17,7 +17,9 @@ We're building out a search feature in our application (no backend persistence).
 
 To run a mock server on your computer, call `npm i -g json-server && json-server --watch db.json`
 
-This will allow you to make `get` requests to `http://localhost:3000/pokemons`
+[json-server](https://github.com/typicode/json-server) is an npm package that allows us to fake a json server.
+
+We can make `get` requests to `http://localhost:3000/pokemons`
 
 ### Constructors and Prototypes (feel free to use either ES5 or ES6)
 
