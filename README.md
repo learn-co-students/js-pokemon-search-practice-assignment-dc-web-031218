@@ -15,6 +15,10 @@ p.s. Don't forget to include the ability to toggle the card image and reset the 
 
 We're building out a search feature in our application (no backend persistence). A user should be able to search for a Pokemon and flip that Pokemon card to see the back side.
 
+To run a mock server on your computer, call `npm i -g json-server && json-server --watch db.json`
+
+This will allow you to make `get` requests to `http://localhost:3000/pokemons`
+
 ### Constructors and Prototypes (feel free to use either ES5 or ES6)
 
 **Note** When creating constructors and prototypes, you may use ES6 classes or just create the constructor function separately. Your choice.
