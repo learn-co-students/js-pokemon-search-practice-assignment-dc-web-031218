@@ -6,6 +6,14 @@
     <script type="text/javascript" src="src/index.js"></script>
 
     <style media="screen">
+    ul{
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(10, 1fr);
+    }
+    li{
+     list-style-type: none;
+    }
       body {
       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
       font-weight: 300;
@@ -61,7 +69,7 @@
       </form>
 
       <div id="pokemon-container">
-        <p><center>There are no Pokémon here</center></p>
+        <p>There are no Pokémon here</p>
       </div>
     </div>
   </body>
